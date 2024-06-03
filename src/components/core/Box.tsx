@@ -14,6 +14,6 @@ export function Box<T extends ValidTags = 'div'>({
   customRef,
   ...props
 }: BoxProps<T> & JSX.IntrinsicElements[T]): ReactElement {
-  const Tag = tag || ('div' as ElementType);
+  const Tag = tag as ElementType;
     return <Tag {...props} ref={customRef} className={className}></Tag>;
 }
