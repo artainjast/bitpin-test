@@ -1,0 +1,1 @@
+export const GET_HOME_PAGE_DATA_EP  = "v1/mkt/markets/"

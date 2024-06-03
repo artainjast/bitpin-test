@@ -1,0 +1,2 @@
+export const REMAIN_DETAILS_DATA_EP = (marketId : string | undefined) => `v2/mth/matches/${marketId}/`
+export const TRADE_DETAILS_DATA_EP = (type : 'buy' | 'sell'  , marketId : string | undefined) =>  `v2/mth/actives/${marketId}/?type=${type}`

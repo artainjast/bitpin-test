@@ -4,7 +4,7 @@ import { ErrorBoundary } from "./ErrorBoundary";
 import { ROUTES } from "../../constants/routes";
 import { HomePage } from "../pages/Home";
 
-const DetailsPage = lazy(() => import("../pages/Details").then());
+const DetailsPage = lazy(() => import("../pages/Details"));
 
 const ErrorBoundaryLayout = () => (
   <ErrorBoundary>
